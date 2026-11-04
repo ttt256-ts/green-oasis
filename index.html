@@ -3,365 +3,434 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>【案1】Green Oasis｜渋谷のオーガニックカフェ</title>
+  <title>Green Oasis｜渋谷のオーガニックカフェ</title>
   <meta name="description" content="渋谷の路地裏で、契約農家の野菜を。ひとりでも、時間を気にせず過ごせるオーガニックカフェ Green Oasis。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;family=Zen+Maru+Gothic:wght@500;700;900&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <!-- 共通アイコン -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="currentColor" d="M20.5 3.5C11.2 3.4 4.6 7.6 4.6 14.6c0 1.6.4 3 1.1 4.2L3.5 21l1.4 1.4 2.2-2.2c1.2.7 2.6 1.1 4.2 1.1 7.3 0 9.6-7.7 9.2-17.8zM8.4 17.8l-.3-.3c2.2-3.3 5.2-5.9 8.8-7.6-3.3 2.1-6.2 4.8-8.5 7.9z"/></symbol>
-    <symbol id="i-arrow" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.5" fill="#fff"/><path d="M13.5 10.5 19 16l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="i-check" viewBox="0 0 56 56"><path fill="currentColor" d="M28 2l5.3 3.9 6.6-.4 2.4 6.1 6.1 2.4-.4 6.6L52 28l-3.9 5.3.4 6.6-6.1 2.4-2.4 6.1-6.6-.4L28 52l-5.3-3.9-6.6.4-2.4-6.1-6.1-2.4.4-6.6L4 28l3.9-5.3-.4-6.6 6.1-2.4 2.4-6.1 6.6.4z"/><path d="M19 28.5l6 6 12-12.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.8l3.1 6.6 7.2.9-5.3 5 1.4 7.1L12 17.9l-6.4 3.5L7 14.3l-5.3-5 7.2-.9z"/></symbol>
-  </svg>
-
-  <!-- ヘッダー -->
-  <header class="header">
-    <div class="header__inner">
-      <a class="header__logo" href="#top" aria-label="Green Oasis トップへ">GREEN<br>OASIS</a>
-      <button class="header__toggle" type="button" aria-controls="gnav" aria-expanded="false" aria-label="メニューを開く">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="gnav" id="gnav" aria-label="グローバルナビゲーション">
-        <ul class="gnav__list">
+  <div class="class202" aria-hidden="true">
+    <span class="class203"><img src="assets/img/logo-hero.png" alt="">
+      <svg class="class016" viewBox="0 0 260 163">
+        <circle class="class018" cx="35.5" cy="116" r="2.6"/>
+        <circle class="class018 class019" cx="46" cy="116" r="2.6"/>
+        <path class="class020" d="M42.6 117 Q46 113.4 49.4 117"/>
+        <path class="class021" d="M39 132.5 L44.2 138.5 L49.6 132.5"/>
+      </svg>
+    </span>
+  </div>
+  <!-- ヘッダー・ナビゲーション -->
+  <header class="class001">
+    <div class="class002">
+      <a class="class003" href="#top" aria-label="Green Oasis トップへ">GREEN<br>OASIS</a>
+      <button class="class004" type="button" aria-controls="gnav" aria-expanded="false" aria-label="メニューを開く"></button>
+      <nav class="class005" id="gnav" aria-label="グローバルナビゲーション">
+        <ul class="class006">
           <li><a href="#story">カフェについて</a></li>
           <li><a href="#menu">メニュー</a></li>
           <li><a href="#access">ご利用案内</a></li>
           <li><a href="#news">お知らせ</a></li>
         </ul>
-        <svg class="gnav__leaf"><use href="#i-leaf"/></svg>
+        <span class="class007" aria-hidden="true"></span>
       </nav>
     </div>
   </header>
 
   <main id="top">
 
-    <!-- FV -->
-    <section class="hero hero--split" aria-label="メインビジュアル">
-      <div class="hero__img ph"><img src="assets/img/hero.jpg" alt="玄米と季節の焼き野菜、フムスを盛り付けたサラダボウル"></div>
-      <div class="hero__dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
-      <div class="hero__content">
-        <h1 class="hero__logo">
-          <span class="ph ph--logo"><img src="assets/img/logo-hero.png" alt="Green Oasis">
-            <svg class="logo-face" viewBox="0 0 260 163" aria-hidden="true">
-              <g class="logo-face__eyes">
-                <circle class="logo-face__eye" cx="35.5" cy="116" r="2.6"/>
-                <circle class="logo-face__eye logo-face__eye--r" cx="46" cy="116" r="2.6"/>
+    <!-- メインビジュアル -->
+    <section class="class008" aria-label="メインビジュアル">
+      <div class="class010 class011">
+        <figure class="class198 class011 class199">
+          <img src="assets/img/hero.jpg" alt="玄米と季節の焼き野菜、フムスを盛り付けたサラダボウル">
+          <figcaption class="class030">季節のサラダボウル<span>¥1,200（税込）</span></figcaption>
+        </figure>
+        <figure class="class198 class011">
+          <img src="assets/img/hero-02.jpg" alt="白い壁に掛かった Green Oasis の看板">
+          <figcaption class="class030">路地裏の白い看板が目印<span>渋谷駅から徒歩5分</span></figcaption>
+        </figure>
+        <figure class="class198 class011">
+          <img src="assets/img/hero-03.jpg" alt="窓ぎわの席でコーヒーを飲みながらくつろぐ女性">
+          <figcaption class="class030">窓ぎわの席で、ゆっくりと<span>ランチタイムも時間制限なし</span></figcaption>
+        </figure>
+        <div class="class200" role="group" aria-label="写真の切り替え">
+          <button class="class201" type="button" aria-label="1枚目:季節のサラダボウル" aria-current="true"></button>
+          <button class="class201" type="button" aria-label="2枚目:お店の看板" aria-current="false"></button>
+          <button class="class201" type="button" aria-label="3枚目:窓ぎわの席" aria-current="false"></button>
+        </div>
+      </div>
+      <div class="class014">
+        <h1 class="class015">
+          <span class="class011"><img src="assets/img/logo-hero.png" alt="Green Oasis">
+            <svg class="class016" viewBox="0 0 260 163" aria-hidden="true">
+              <g class="class017">
+                <circle class="class018" cx="35.5" cy="116" r="2.6"/>
+                <circle class="class018 class019" cx="46" cy="116" r="2.6"/>
               </g>
-              <path class="logo-face__wink" d="M42.6 117 Q46 113.4 49.4 117"/>
-              <path class="logo-face__mouth" d="M39 132.5 L44.2 138.5 L49.6 132.5"/>
-              <path class="logo-face__smile" d="M37.8 132 Q44.2 141.5 50.8 132"/>
+              <path class="class020" d="M42.6 117 Q46 113.4 49.4 117"/>
+              <path class="class021" d="M39 132.5 L44.2 138.5 L49.6 132.5"/>
+              <path class="class022" d="M37.8 132 Q44.2 141.5 50.8 132"/>
             </svg>
           </span>
         </h1>
-        <p class="hero__catch">忙しい日こそ、ちゃんと食べる。</p>
-        <div class="hero__badge">
-          <span class="hero__badge-en">Shibuya Cafe</span>
+        <p class="class023">忙しい日こそ、ちゃんと食べる。</p>
+        <div class="class024">
+          <span class="class025">Shibuya Cafe</span>
           <span>渋谷駅 徒歩5分</span>
           <span>8:00–20:00</span>
         </div>
-        <a class="btn btn--orange btn--reserve hero__btn" href="#reserve">席を予約する</a>
+        <a class="class026 class027 class028 class029" href="#reserve">席を予約する</a>
       </div>
-      <p class="hero__caption">季節のサラダボウル<span>¥1,200（税込）</span></p>
     </section>
 
-    <!-- イントロ -->
-    <section class="intro">
-      <svg class="intro__dots" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <!-- イントロ・カフェの特徴 -->
+    <section class="class031">
+      <svg class="class032" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 78 Q720 -10 1440 78" fill="none" stroke="#b5d36b" stroke-width="9" stroke-linecap="round" stroke-dasharray="0 34" vector-effect="non-scaling-stroke"/>
       </svg>
-      <div class="inner">
-        <h2 class="intro__title">渋谷の路地裏で、<br class="sp">契約農家の野菜を。</h2>
-        <p class="lined">ひとりでも、時間を気にせず。</p>
-        <ul class="points">
-          <li class="point">
-            <svg class="point__icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="26" cy="20" r="11" fill="#fff"/><path d="M6 52c0-12 9-19 20-19s20 7 20 19z" fill="#fff"/><path d="M50 22c-2.6-4.4-9.4-2.8-8.8 2.2.3 3 3.6 5.4 8.8 9.2 5.2-3.8 8.5-6.2 8.8-9.2.6-5-6.2-6.6-8.8-2.2z" fill="#fff"/></svg>
-            <span class="point__label">ひとりでも歓迎</span>
+      <ul class="class182" aria-label="本日のようす">
+        <li class="class183">
+          <span class="class184">いまの営業状況</span>
+          <strong class="class185 class188" id="open-state">8:00–20:00</strong>
+          <span class="class186" id="open-note">水曜定休・L.O. 19:30</span>
+        </li>
+        <li class="class183">
+          <span class="class184">いまの空席</span>
+          <strong class="class185" id="seat-state">全24席</strong>
+          <span class="class187" id="seat-meter" role="img" aria-label="空席の目安" hidden></span>
+          <span class="class186" id="seat-note">カウンター10席</span>
+        </li>
+        <li class="class183">
+          <span class="class184">今日採れた野菜</span>
+          <strong class="class185" id="veg-today">季節の野菜</strong>
+          <span class="class186" id="veg-farm">契約農家から毎朝届きます</span>
+        </li>
+      </ul>
+      <div class="class033">
+        <h2 class="class034">渋谷の路地裏で、<br class="class035">契約農家の野菜を。</h2>
+        <p class="class036"><span class="class037">ひとりでも、時間を気にせず。</span></p>
+        <ul class="class038">
+          <li class="class039">
+            <span class="class040 class041" aria-hidden="true"></span>
+            <span class="class042">ひとりでも歓迎</span>
           </li>
-          <li class="point point--up">
-            <svg class="point__icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="26" fill="#fff"/><path d="M32 16v17l11 7" fill="none" stroke="#6e8b2a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="point__label">時間制限なし</span>
+          <li class="class039 class043">
+            <span class="class040 class044" aria-hidden="true"></span>
+            <span class="class042">時間制限なし</span>
           </li>
-          <li class="point">
-            <svg class="point__icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 6l18 26L50 6M18 34h28M18 46h28M32 32v28" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="point__label">ランチ<br>¥1,200〜1,500</span>
+          <li class="class039">
+            <span class="class040 class045" aria-hidden="true"></span>
+            <span class="class042">ランチ<br>¥1,200〜1,500</span>
           </li>
         </ul>
-        <svg class="deco-leaf intro__leaf1" aria-hidden="true"><use href="#i-leaf"/></svg>
-        <svg class="deco-leaf intro__leaf2" aria-hidden="true"><use href="#i-leaf"/></svg>
-        <div class="center"><a class="btn btn--orange btn--reserve" href="#reserve">席を予約する</a></div>
+        <span class="class046 class047" aria-hidden="true"></span>
+        <span class="class046 class048" aria-hidden="true"></span>
+        <div class="class049"><a class="class026 class027 class028" href="#reserve">席を予約する</a></div>
       </div>
     </section>
 
-    <!-- お悩み -->
-    <section class="worry">
-      <div class="inner">
-        <h2 class="worry__title">こんな日、ありませんか？</h2>
-        <div class="worry__card">
-          <span class="tape ph" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
-          <ul class="worry__list">
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>昼はコンビニかチェーン店の繰り返しになっている</span></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>食べたあと、なんだか眠くなってしまう</span></li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>ひとりでゆっくりできる店が意外と見つからない</span></li>
+    <!-- 来店前のお悩み -->
+    <section class="class050">
+      <div class="class033">
+        <h2 class="class051">こんな日、ありませんか？</h2>
+        <div class="class052">
+          <span class="class053 class011" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
+          <ul class="class054">
+            <li><span>お昼はコンビニかチェーン店ばかり</span></li>
+            <li><span>食べたあと、なんだか眠くなる</span></li>
+            <li><span>ひとりでゆっくりできる店がない</span></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- OUR STORY -->
-    <section class="story" id="story">
-      <div class="story__bg ph"><img src="assets/img/story.jpg" alt="カフェの店内で微笑むオーナー"></div>
-      <div class="story__inner">
-        <div class="story__body">
-          <svg class="story__arc" viewBox="0 0 1094 130" aria-hidden="true">
+    <!-- オーナーの想い -->
+    <section class="class056" id="story">
+      <div class="class057 class011"><img src="assets/img/story.jpg" alt="カフェの店内で微笑むオーナー"></div>
+      <div class="class058">
+        <div class="class059">
+          <svg class="class060" viewBox="0 0 1094 130" aria-hidden="true">
             <path id="arc-story" d="M0 125 Q560 -70 1094 120" fill="none"/>
-            <text><textPath href="#arc-story" startOffset="33%"><tspan class="story__arc-en">OUR STORY</tspan><tspan class="story__arc-ja" dx="14">オーナーの想い</tspan></textPath></text>
+            <text><textPath href="#arc-story" startOffset="33%"><tspan class="class061">OUR STORY</tspan><tspan class="class062" dx="14">オーナーの想い</tspan></textPath></text>
           </svg>
-          <p class="story__label">OUR STORY<span>オーナーの想い</span></p>
-          <h2 class="story__title">ちゃんと食べることを、<br>もっと日常の近くに</h2>
-          <p class="story__text">忙しい毎日の中でも、食事の時間は自分を大切にしてほしい。そんな想いから、このカフェを始めました。<br>このカフェが、また頑張るための小さな力になれたら嬉しいです。</p>
-          <p class="story__name">オーナー　森田 澪</p>
-          <a class="btn btn--green btn--arrow story__btn" href="#features">私たちについて<svg><use href="#i-arrow"/></svg></a>
+          <p class="class063">OUR STORY<span>オーナーの想い</span></p>
+          <h2 class="class064">ちゃんと食べることを、<br>もっと日常の近くに</h2>
+          <p class="class065">忙しい毎日の中でも、食事の時間は自分を大切にしてほしい。そんな想いから、このカフェを始めました。<br>このカフェが、また頑張るための小さな力になれたら嬉しいです。</p>
+          <p class="class066">オーナー　森田 澪</p>
+          <a class="class026 class067 class068 class069" href="#features">私たちについて</a>
         </div>
       </div>
     </section>
 
-    <!-- FEATURES -->
-    <section class="features" id="features">
-      <div class="inner">
-        <div class="sec-head">
-          <svg class="sec-head__arc" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-features" d="M40 60 Q130 4 220 60" fill="none"/><text><textPath href="#arc-features" startOffset="50%" text-anchor="middle">3つのこだわり</textPath></text></svg>
-          <svg class="sec-head__leaf" aria-hidden="true"><use href="#i-leaf"/></svg>
-          <h2 class="sec-head__title">FEATURES</h2>
+    <!-- 3つのこだわり -->
+    <section class="class071" id="features">
+      <div class="class033">
+        <div class="class072">
+          <svg class="class073" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-features" d="M40 60 Q130 4 220 60" fill="none"/><text><textPath href="#arc-features" startOffset="50%" text-anchor="middle">3つのこだわり</textPath></text></svg>
+          <span class="class074" aria-hidden="true"></span>
+          <h2 class="class075">FEATURES</h2>
         </div>
 
-        <ol class="features__list">
-          <li class="feature">
-            <div class="feature__visual">
-              <div class="feature__img ph"><img src="assets/img/feature-01.webp" alt="木箱いっぱいの採れたてトマト"></div>
-              <svg class="feature__text" viewBox="-20 -100 440 480" aria-hidden="true">
+        <ol class="class076">
+          <li class="class077">
+            <div class="class078">
+              <div class="class079 class011"><img src="assets/img/feature-01.webp" alt="木箱いっぱいの採れたてトマト"></div>
+              <svg class="class080" viewBox="-20 -100 440 480" aria-hidden="true">
                 <path id="arc-f1" d="M120.3 2.5 A195 174 0 0 1 363.7 239.5" fill="none"/>
                 <path id="arc-f1c" d="M-16.8 215.2 A211 190 0 0 0 390.8 215.2" fill="none"/>
-                <text class="feature__num" x="110.8" y="21.8" text-anchor="end" transform="rotate(-8 110.8 21.8)">01</text>
-                <text class="feature__title"><textPath href="#arc-f1">産地のわかる野菜</textPath></text>
-                <text class="feature__cap"><textPath href="#arc-f1c" startOffset="64%" text-anchor="middle">契約農家8軒から、毎朝届く</textPath></text>
+                <text class="class081" x="110.8" y="21.8" text-anchor="end" transform="rotate(-8 110.8 21.8)">01</text>
+                <text class="class082"><textPath href="#arc-f1">産地のわかる野菜</textPath></text>
+                <text class="class083"><textPath href="#arc-f1c" startOffset="64%" text-anchor="middle">契約農家8軒から、毎朝届く</textPath></text>
               </svg>
             </div>
-            <h3 class="visually-hidden">産地のわかる野菜</h3>
-            <p class="visually-hidden">契約農家8軒から、毎朝届く</p>
+            <h3 class="class084">産地のわかる野菜</h3>
+            <p class="class084">契約農家8軒から、毎朝届く</p>
           </li>
-          <li class="feature feature--up">
-            <div class="feature__visual">
-              <div class="feature__img ph"><img src="assets/img/feature-02.webp" alt="窓際の席でひとりコーヒーを楽しむ女性"></div>
-              <svg class="feature__text" viewBox="-20 -100 440 480" aria-hidden="true">
+          <li class="class077">
+            <div class="class078">
+              <div class="class079 class011"><img src="assets/img/feature-02.webp" alt="窓際の席でひとりコーヒーを楽しむ女性"></div>
+              <svg class="class080" viewBox="-20 -100 440 480" aria-hidden="true">
                 <path id="arc-f2" d="M114.0 4.7 A195 174 0 0 1 363.7 239.5" fill="none"/>
                 <path id="arc-f2c" d="M-16.8 215.2 A211 190 0 0 0 390.8 215.2" fill="none"/>
-                <text class="feature__num" x="104.6" y="24.3" text-anchor="end" transform="rotate(-8 104.6 24.3)">02</text>
-                <text class="feature__title"><textPath href="#arc-f2">ひとりでも居心地よく</textPath></text>
-                <text class="feature__cap"><textPath href="#arc-f2c" startOffset="50%" text-anchor="middle">カウンターと2人がけを多めに</textPath></text>
+                <text class="class081" x="104.6" y="24.3" text-anchor="end" transform="rotate(-8 104.6 24.3)">02</text>
+                <text class="class082"><textPath href="#arc-f2">ひとりでも居心地よく</textPath></text>
+                <text class="class083"><textPath href="#arc-f2c" startOffset="50%" text-anchor="middle">カウンターと2人がけを多めに</textPath></text>
               </svg>
             </div>
-            <h3 class="visually-hidden">ひとりでも居心地よく</h3>
-            <p class="visually-hidden">カウンターと2人がけを多めに</p>
+            <h3 class="class084">ひとりでも居心地よく</h3>
+            <p class="class084">カウンターと2人がけを多めに</p>
           </li>
-          <li class="feature">
-            <div class="feature__visual">
-              <div class="feature__img ph"><img src="assets/img/feature-03.webp" alt="頬杖をついてくつろぐ女性"></div>
-              <svg class="feature__text" viewBox="-20 -100 440 480" aria-hidden="true">
+          <li class="class077">
+            <div class="class078">
+              <div class="class079 class011"><img src="assets/img/feature-03.webp" alt="頬杖をついてくつろぐ女性"></div>
+              <svg class="class080" viewBox="-20 -100 440 480" aria-hidden="true">
                 <path id="arc-f3" d="M139.8 -2.8 A195 174 0 0 1 363.7 239.5" fill="none"/>
                 <path id="arc-f3c" d="M-16.8 215.2 A211 190 0 0 0 390.8 215.2" fill="none"/>
-                <text class="feature__num" x="130.0" y="15.6" text-anchor="end" transform="rotate(-8 130.0 15.6)">03</text>
-                <text class="feature__title"><textPath href="#arc-f3">急かしません</textPath></text>
-                <text class="feature__cap"><textPath href="#arc-f3c" startOffset="56%" text-anchor="middle">ランチタイムも時間制限なし</textPath></text>
+                <text class="class081" x="130.0" y="15.6" text-anchor="end" transform="rotate(-8 130.0 15.6)">03</text>
+                <text class="class082"><textPath href="#arc-f3">急かしません</textPath></text>
+                <text class="class083"><textPath href="#arc-f3c" startOffset="56%" text-anchor="middle">ランチタイムも時間制限なし</textPath></text>
               </svg>
             </div>
-            <h3 class="visually-hidden">急かしません</h3>
-            <p class="visually-hidden">ランチタイムも時間制限なし</p>
+            <h3 class="class084">急かしません</h3>
+            <p class="class084">ランチタイムも時間制限なし</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- 店内イメージ -->
-    <div class="interior">
-      <div class="interior__img ph"><img src="assets/img/interior.jpg" alt="植物に囲まれた明るい店内で窓の外を眺める女性"></div>
-      <a class="btn btn--orange btn--reserve interior__btn" href="#reserve">席を予約する</a>
+    <!-- 店内写真・予約ボタン -->
+    <div class="class086">
+      <div class="class087 class011"><img src="assets/img/interior.jpg" alt="植物に囲まれた明るい店内で窓の外を眺める女性"></div>
+      <a class="class026 class027 class028 class088" href="#reserve">席を予約する</a>
     </div>
 
-    <!-- MENU -->
-    <section class="menu" id="menu">
-      <div class="inner">
-        <div class="sec-head">
-          <svg class="sec-head__arc" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-menu" d="M20 60 Q130 4 240 60" fill="none"/><text><textPath href="#arc-menu" startOffset="50%" text-anchor="middle">おいしいから、また食べたい</textPath></text></svg>
-          <svg class="sec-head__leaf" aria-hidden="true"><use href="#i-leaf"/></svg>
-          <h2 class="sec-head__title">MENU</h2>
+    <!-- メニュー -->
+    <section class="class089" id="menu">
+      <div class="class033">
+        <div class="class072">
+          <svg class="class073" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-menu" d="M20 60 Q130 4 240 60" fill="none"/><text><textPath href="#arc-menu" startOffset="50%" text-anchor="middle">おいしいから、また食べたい</textPath></text></svg>
+          <span class="class074" aria-hidden="true"></span>
+          <h2 class="class075">MENU</h2>
         </div>
 
-        <div class="menu__marquee">
-          <ul class="menu__list">
-            <li class="menu-card">
-              <span class="menu-card__tag">salad</span>
-              <div class="menu-card__img ph"><img src="assets/img/menu-01.jpg" alt=""></div>
-              <h3 class="menu-card__name">季節のサラダボウル</h3>
-              <p class="menu-card__price">¥1,200（税込）</p>
+        <div class="class090">
+          <ul class="class091">
+            <li class="class092">
+              <div class="class178">
+                <span class="class093">salad</span>
+                <div class="class094 class011"><img src="assets/img/menu-01.jpg" alt=""></div>
+                <h3 class="class095">季節のサラダボウル</h3>
+                <p class="class096">¥1,200（税込）</p>
+              </div>
+              <div class="class179">
+                <p>材料・産地の例</p>
+                <dl>
+                  <dt>材料</dt><dd>玄米、焼き野菜、フムス</dd>
+                  <dt>野菜の産地</dt><dd>葉物・根菜は千葉農園、トマトは茨城ファーム</dd>
+                </dl>
+              </div>
+              <button class="class180" type="button" aria-pressed="false" aria-label="季節のサラダボウルの材料・産地カードを裏返す"></button>
             </li>
-            <li class="menu-card">
-              <span class="menu-card__tag">drink</span>
-              <div class="menu-card__img ph"><img src="assets/img/menu-02.jpg" alt=""></div>
-              <h3 class="menu-card__name">グリーンスムージー</h3>
-              <p class="menu-card__price">¥750（税込）</p>
+            <li class="class092">
+              <div class="class178">
+                <span class="class093">drink</span>
+                <div class="class094 class011"><img src="assets/img/menu-02.jpg" alt=""></div>
+                <h3 class="class095">グリーンスムージー</h3>
+                <p class="class096">¥750（税込）</p>
+              </div>
+              <div class="class179">
+                <p>材料・産地の例</p>
+                <dl>
+                  <dt>材料</dt><dd>小松菜、りんご、バナナ</dd>
+                  <dt>野菜の産地</dt><dd>小松菜は千葉農園</dd>
+                </dl>
+              </div>
+              <button class="class180" type="button" aria-pressed="false" aria-label="グリーンスムージーの材料・産地カードを裏返す"></button>
             </li>
-            <li class="menu-card">
-              <span class="menu-card__tag">drink</span>
-              <div class="menu-card__img ph"><img src="assets/img/menu-03.jpg" alt=""></div>
-              <h3 class="menu-card__name">オーガニックコーヒー</h3>
-              <p class="menu-card__price">¥600（税込）</p>
+            <li class="class092">
+              <div class="class178">
+                <span class="class093">drink</span>
+                <div class="class094 class011"><img src="assets/img/menu-03.jpg" alt=""></div>
+                <h3 class="class095">オーガニックコーヒー</h3>
+                <p class="class096">¥600（税込）</p>
+              </div>
+              <div class="class179">
+                <p>材料・産地の例</p>
+                <dl>
+                  <dt>材料</dt><dd>オーガニックコーヒー豆</dd>
+                  <dt>野菜の産地</dt><dd>野菜の使用なし。豆は東京挽煎所で焙煎</dd>
+                </dl>
+              </div>
+              <button class="class180" type="button" aria-pressed="false" aria-label="オーガニックコーヒーの材料・産地カードを裏返す"></button>
             </li>
-            <li class="menu-card">
-              <span class="menu-card__tag">dessert</span>
-              <div class="menu-card__img ph"><img src="assets/img/menu-04.jpg" alt=""></div>
-              <h3 class="menu-card__name">本日のデザート</h3>
-              <p class="menu-card__price">¥650（税込）</p>
+            <li class="class092">
+              <div class="class178">
+                <span class="class093">dessert</span>
+                <div class="class094 class011"><img src="assets/img/menu-04.jpg" alt=""></div>
+                <h3 class="class095">本日のデザート</h3>
+                <p class="class096">¥650（税込）</p>
+              </div>
+              <div class="class179">
+                <p>材料・産地の例</p>
+                <dl>
+                  <dt>材料</dt><dd>にんじん、小麦粉、卵</dd>
+                  <dt>野菜の産地</dt><dd>にんじんは千葉農園</dd>
+                </dl>
+              </div>
+              <button class="class180" type="button" aria-pressed="false" aria-label="本日のデザートの材料・産地カードを裏返す"></button>
             </li>
           </ul>
         </div>
-        <div class="center"><a class="btn btn--orange btn--arrow" href="#">メニューをすべて見る<svg><use href="#i-arrow"/></svg></a></div>
+        <button class="class190" type="button" aria-pressed="false" hidden>一時停止</button>
+        <div class="class049"><a class="class026 class027 class068" href="#">メニューをすべて見る</a></div>
       </div>
     </section>
 
-    <!-- PRODUCERS -->
-    <section class="producers">
-      <div class="inner">
-        <div class="sec-head">
-          <svg class="sec-head__arc" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-prod" d="M50 60 Q130 6 210 60" fill="none"/><text><textPath href="#arc-prod" startOffset="50%" text-anchor="middle">つくっている人</textPath></text></svg>
-          <svg class="sec-head__leaf" aria-hidden="true"><use href="#i-leaf"/></svg>
-          <h2 class="sec-head__title">PRODUCERS</h2>
+    <!-- 生産者の紹介 -->
+    <section class="class097">
+      <div class="class033">
+        <div class="class072">
+          <svg class="class073" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-prod" d="M50 60 Q130 6 210 60" fill="none"/><text><textPath href="#arc-prod" startOffset="50%" text-anchor="middle">つくっている人</textPath></text></svg>
+          <span class="class074" aria-hidden="true"></span>
+          <h2 class="class075">PRODUCERS</h2>
         </div>
-        <p class="lined lined--wide">契約農家8軒。<br>仕入れているものと産地をすべて公開しています。</p>
+        <p class="class036 class098">契約農家8軒。<br>仕入れているものと産地をすべて公開しています。</p>
 
-        <ul class="producers__list">
-          <li class="producer">
-            <div class="producer__img ph"><img src="assets/img/producer-01.jpg" alt="ハウスでトマトを収穫する生産者"></div>
-            <span class="tape ph" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
-            <div class="producer__label"><span class="producer__num">01</span><p><strong>千葉農園</strong>葉物と根菜</p></div>
+        <ul class="class099">
+          <li class="class100">
+            <div class="class101 class011"><img src="assets/img/producer-01.jpg" alt="ハウスでトマトを収穫する生産者"></div>
+            <span class="class053 class011" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
+            <div class="class102"><span class="class103">01</span><p><strong>千葉農園</strong>葉物と根菜</p></div>
           </li>
-          <li class="producer">
-            <div class="producer__img ph"><img src="assets/img/producer-02.jpg" alt="畑の前で笑顔を見せる生産者"></div>
-            <span class="tape ph" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
-            <div class="producer__label"><span class="producer__num">02</span><p><strong>茨城ファーム</strong>トマトとハーブ</p></div>
+          <li class="class100">
+            <div class="class101 class011"><img src="assets/img/producer-02.jpg" alt="畑の前で笑顔を見せる生産者"></div>
+            <span class="class053 class011" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
+            <div class="class102"><span class="class103">02</span><p><strong>茨城ファーム</strong>トマトとハーブ</p></div>
           </li>
-          <li class="producer">
-            <div class="producer__img ph"><img src="assets/img/producer-03.jpg" alt="焙煎機の前でコーヒー豆を確かめる焙煎士"></div>
-            <span class="tape ph" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
-            <div class="producer__label"><span class="producer__num">03</span><p><strong>東京挽煎所</strong>コーヒー豆</p></div>
+          <li class="class100">
+            <div class="class101 class011"><img src="assets/img/producer-03.jpg" alt="焙煎機の前でコーヒー豆を確かめる焙煎士"></div>
+            <span class="class053 class011" aria-hidden="true"><img src="assets/img/tape.png" alt=""></span>
+            <div class="class102"><span class="class103">03</span><p><strong>東京挽煎所</strong>コーヒー豆</p></div>
           </li>
         </ul>
       </div>
     </section>
 
-    <!-- VOICE -->
-    <section class="voice">
-      <div class="inner">
-        <div class="sec-head">
-          <svg class="sec-head__arc" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-voice" d="M60 60 Q130 14 200 60" fill="none"/><text><textPath href="#arc-voice" startOffset="50%" text-anchor="middle">お客様の声</textPath></text></svg>
-          <svg class="sec-head__leaf" aria-hidden="true"><use href="#i-leaf"/></svg>
-          <h2 class="sec-head__title">VOICE</h2>
+    <!-- お客さまの声 -->
+    <section class="class104">
+      <div class="class033">
+        <div class="class072">
+          <svg class="class073" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-voice" d="M60 60 Q130 14 200 60" fill="none"/><text><textPath href="#arc-voice" startOffset="50%" text-anchor="middle">お客様の声</textPath></text></svg>
+          <span class="class074" aria-hidden="true"></span>
+          <h2 class="class075">VOICE</h2>
         </div>
 
-        <ul class="voice__list">
-          <li class="voice-card">
-            <div class="voice-card__img ph"><img src="assets/img/voice-01.jpg" alt=""></div>
-            <div class="voice-card__head">
-              <p class="voice-card__name">A.Sさん</p>
-              <p class="voice-card__meta">30代・会社員／ひとりで来店</p>
-              <p class="voice-card__stars" aria-label="5点満点中5点">
-                <svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg>
-              </p>
+        <ul class="class105">
+          <li class="class106">
+            <div class="class107 class011"><img src="assets/img/voice-01.jpg" alt=""></div>
+            <div class="class108">
+              <p class="class109">A.Sさん</p>
+              <p class="class110">30代・会社員／ひとりで来店</p>
+              <p class="class111" role="img" aria-label="5点満点中5点"></p>
             </div>
-            <p class="voice-card__text">休日の朝に利用しました。<br>野菜たっぷりのランチと落ち着いた空間で、心も体もリフレッシュ。<br>気持ちよく一日をスタートできました。</p>
+            <p class="class113">休日の朝に利用しました。<br>野菜たっぷりのランチと落ち着いた空間で、心も体もリフレッシュ。<br>気持ちよく一日をスタートできました。</p>
           </li>
-          <li class="voice-card">
-            <div class="voice-card__img ph"><img src="assets/img/voice-02.jpg" alt=""></div>
-            <div class="voice-card__head">
-              <p class="voice-card__name">A.Sさん</p>
-              <p class="voice-card__meta">30代・会社員／ひとりで来店</p>
-              <p class="voice-card__stars" aria-label="5点満点中5点">
-                <svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg>
-              </p>
+          <li class="class106">
+            <div class="class107 class011"><img src="assets/img/voice-02.jpg" alt=""></div>
+            <div class="class108">
+              <p class="class109">K.Tさん</p>
+              <p class="class110">40代・会社員／友人と来店</p>
+              <p class="class111" role="img" aria-label="5点満点中5点"></p>
             </div>
-            <p class="voice-card__text">休日の朝に利用しました。<br>野菜たっぷりのランチと落ち着いた空間で、心も体もリフレッシュ。<br>気持ちよく一日をスタートできました。</p>
+            <p class="class113">仕事の合間のランチに伺いました。<br>野菜の味が濃くて、産地がわかるのも安心です。<br>時間を気にせず話せるのも嬉しいポイントでした。</p>
           </li>
         </ul>
-        <div class="center"><a class="btn btn--orange btn--arrow" href="#">声をすべて見る<svg><use href="#i-arrow"/></svg></a></div>
+        <div class="class049"><a class="class026 class027 class068" href="#">声をすべて見る</a></div>
       </div>
     </section>
 
-    <!-- Q&A -->
-    <section class="qa">
-      <div class="sec-head">
-        <svg class="sec-head__arc" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-qa" d="M55 60 Q130 10 205 60" fill="none"/><text><textPath href="#arc-qa" startOffset="50%" text-anchor="middle">よくある質問</textPath></text></svg>
-        <h2 class="sec-head__title">Q<span class="amp">&amp;</span>A</h2>
+    <!-- よくある質問 -->
+    <section class="class114">
+      <div class="class072">
+        <svg class="class073" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-qa" d="M55 60 Q130 10 205 60" fill="none"/><text><textPath href="#arc-qa" startOffset="50%" text-anchor="middle">よくある質問</textPath></text></svg>
+        <h2 class="class075">Q<span class="class115">&amp;</span>A</h2>
       </div>
-      <div class="qa__wrap">
-        <div class="qa__img ph"><img src="assets/img/qa.jpg" alt="Green Oasis ORGANIC CAFE の看板"></div>
-        <div class="qa__list">
-          <details class="faq">
-            <summary>Q. ひとりでも入りやすいですか？</summary>
+      <div class="class116">
+        <div class="class117 class011"><img src="assets/img/qa.jpg" alt="Green Oasis ORGANIC CAFE の看板"></div>
+        <div class="class118">
+          <details class="class119">
+            <summary>ひとりでも入りやすいですか？</summary>
             <p>はい。カウンター10席を含む全24席で、おひとりのお客様も多くご来店いただいています。</p>
           </details>
-          <details class="faq">
-            <summary>Q. 予約は必要ですか？</summary>
+          <details class="class119">
+            <summary>予約は必要ですか？</summary>
             <p>ご予約なしでもご利用いただけます。当日のご予約も受け付けています。</p>
           </details>
-          <details class="faq">
-            <summary>Q. ランチはいくらくらいですか？</summary>
+          <details class="class119">
+            <summary>ランチはいくらくらいですか？</summary>
             <p>ランチは¥1,200〜1,500です。ランチタイムも時間制限はありません。</p>
           </details>
-          <details class="faq">
-            <summary>Q. アレルギーへの対応はしていますか？</summary>
-            <p>【回答文を入れてください】</p>
+          <details class="class119">
+            <summary>アレルギーへの対応はしていますか？</summary>
+            <p>ご注文の際にスタッフへお知らせください。使用している食材をお伝えし、可能な範囲で調整いたします。</p>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- NEWS -->
-    <section class="news" id="news">
-      <div class="inner">
-        <div class="sec-head">
-          <svg class="sec-head__arc" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-news" d="M70 60 Q130 30 190 60" fill="none"/><text><textPath href="#arc-news" startOffset="50%" text-anchor="middle">お知らせ</textPath></text></svg>
-          <h2 class="sec-head__title">NEWS</h2>
+    <!-- お知らせ -->
+    <section class="class120" id="news">
+      <div class="class033">
+        <div class="class072">
+          <svg class="class073" viewBox="0 0 260 64" aria-hidden="true"><path id="arc-news" d="M70 60 Q130 30 190 60" fill="none"/><text><textPath href="#arc-news" startOffset="50%" text-anchor="middle">お知らせ</textPath></text></svg>
+          <h2 class="class075">NEWS</h2>
         </div>
-        <div class="news__grid">
-          <a class="news-card news-card--large" href="#">
-            <div class="news-card__img ph"><img src="assets/img/news-01.jpg" alt=""></div>
-            <div class="news-card__body"><time datetime="2026-09-01">2026.09.01</time><p>秋の新メニューが始まりました</p></div>
+        <div class="class121">
+          <a class="class122 class123" href="#">
+            <div class="class124 class011"><img src="assets/img/news-01.jpg" alt=""></div>
+            <div class="class125"><time datetime="2026-09-01">2026.09.01</time><p>秋の新メニューが始まりました</p></div>
           </a>
-          <div class="news__side">
-            <a class="news-card" href="#">
-              <div class="news-card__img ph"><img src="assets/img/news-02.jpg" alt=""></div>
-              <div class="news-card__body"><time datetime="2026-08-20">2026.08.20</time><p>9月の営業時間について</p></div>
+          <div class="class126">
+            <a class="class122" href="#">
+              <div class="class124 class011"><img src="assets/img/news-02.jpg" alt=""></div>
+              <div class="class125"><time datetime="2026-08-20">2026.08.20</time><p>9月の営業時間について</p></div>
             </a>
-            <a class="news-card" href="#">
-              <div class="news-card__img ph"><img src="assets/img/news-02.jpg" alt=""></div>
-              <div class="news-card__body"><time datetime="2026-08-05">2026.08.05</time><p>Instagram を始めました</p></div>
+            <a class="class122" href="#">
+              <div class="class124 class011"><img src="assets/img/news-02.jpg" alt=""></div>
+              <div class="class125"><time datetime="2026-08-05">2026.08.05</time><p>Instagram を始めました</p></div>
             </a>
           </div>
         </div>
-        <div class="center"><a class="btn btn--orange btn--arrow" href="#">ニュースをすべて見る<svg><use href="#i-arrow"/></svg></a></div>
+        <div class="class049"><a class="class026 class027 class068" href="#">ニュースをすべて見る</a></div>
       </div>
     </section>
 
-    <!-- アクセス・予約 -->
-    <section class="access" id="access">
-      <div class="access__visual">
-        <!-- 写真の切り抜き(楕円+四角)と緑のラインを同じ座標で描くのでズレない -->
-        <svg class="access__svg" viewBox="0 0 1440 966" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Green Oasis の外観">
+    <!-- アクセス・店舗情報 -->
+    <section class="class127" id="access">
+      <div class="class128">
+        <svg class="class129" viewBox="0 0 1440 966" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Green Oasis の外観">
           <defs>
             <clipPath id="shop-clip">
               <ellipse cx="718.5" cy="412.5" rx="872.5" ry="412.5"/>
@@ -380,11 +449,11 @@
           <rect x="-200" y="-10" width="1840" height="400" fill="#6e8b2a" mask="url(#shop-band)"/>
         </svg>
       </div>
-      <div class="access__inner">
-        <div class="access__info">
-          <p class="access__brand">GREEN OASIS</p>
-          <h2 class="access__title">ご利用案内・アクセス</h2>
-          <dl class="info">
+      <div class="class130">
+        <div class="class131">
+          <p class="class132">GREEN OASIS</p>
+          <h2 class="class133">ご利用案内・アクセス</h2>
+          <dl class="class134">
             <div><dt>営業時間</dt><dd>8:00–20:00（L.O. 19:30）</dd></div>
             <div><dt>定休日</dt><dd>水曜日</dd></div>
             <div><dt>席数</dt><dd>24席／カウンター10席</dd></div>
@@ -393,41 +462,43 @@
           </dl>
         </div>
 
-        <form class="reserve" id="reserve" action="#" method="post">
-          <h2 class="reserve__title">席を予約する</h2>
-          <ul class="reserve__note">
+        <!-- 予約フォーム -->
+        <form class="class135" id="reserve" action="#" method="post">
+          <h2 class="class136">席を予約する</h2>
+          <ul class="class137">
             <li>日時・人数を選んで、次の画面へ</li>
             <li>当日のご予約も受け付けています</li>
           </ul>
-          <label class="field field--date"><span class="field__label"><svg class="field__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17" stroke="currentColor" stroke-width="1.8"/><path d="M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><g class="field__icon-page"><rect x="7" y="12.5" width="4" height="4" rx="1" fill="currentColor"/></g></svg>来店日</span><input type="date" name="date" value="2026-09-20" required><span class="field__hint" aria-live="polite"></span></label>
-          <label class="field field--time"><span class="field__label"><svg class="field__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path class="field__icon-hand field__icon-hand--long" d="M12 12V6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="field__icon-hand field__icon-hand--short" d="M12 12h3.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg>時間</span>
+          <label class="class138 class139"><span class="class140"><svg class="class141" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17" stroke="currentColor" stroke-width="1.8"/><path d="M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><g class="class142"><rect x="7" y="12.5" width="4" height="4" rx="1" fill="currentColor"/></g></svg>来店日</span><input type="date" name="date" required><span class="class143" aria-live="polite"></span></label>
+          <label class="class138 class144"><span class="class140"><svg class="class141" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path class="class145 class146" d="M12 12V6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path class="class145 class147" d="M12 12h3.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg>時間</span>
             <select name="time">
               <option>8:00</option><option>9:00</option><option>10:00</option><option>11:00</option>
               <option selected>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option>
               <option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option>
             </select>
-            <span class="field__hint" aria-live="polite"></span>
+            <span class="class143" aria-live="polite"></span>
           </label>
-          <label class="field field--people"><span class="field__label"><svg class="field__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" fill="currentColor"/><path d="M3 19.5c0-3.6 2.7-6 6-6s6 2.4 6 6z" fill="currentColor"/><g class="field__icon-friend"><circle cx="17" cy="9" r="2.6" fill="currentColor" opacity=".75"/><path d="M14.2 19.5c.1-1.8-.4-3.4-1.4-4.6.9-.7 2.3-1.1 3.2-1.1 2.9 0 5 2 5 5.7z" fill="currentColor" opacity=".75"/></g></svg>人数</span>
+          <label class="class138 class148"><span class="class140"><svg class="class141" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" fill="currentColor"/><path d="M3 19.5c0-3.6 2.7-6 6-6s6 2.4 6 6z" fill="currentColor"/><g class="class149"><circle cx="17" cy="9" r="2.6" fill="currentColor" opacity=".75"/><path d="M14.2 19.5c.1-1.8-.4-3.4-1.4-4.6.9-.7 2.3-1.1 3.2-1.1 2.9 0 5 2 5 5.7z" fill="currentColor" opacity=".75"/></g></svg>人数</span>
             <select name="people">
               <option selected>1名</option><option>2名</option><option>3名</option><option>4名</option><option>5名以上</option>
             </select>
-            <span class="field__hint" aria-live="polite"></span>
+            <span class="class143" aria-live="polite"></span>
           </label>
-          <p class="reserve__summary" aria-live="polite"><span class="reserve__summary-text"></span></p>
-          <button class="btn btn--orange btn--reserve reserve__btn" type="submit">席を予約する</button>
+          <p class="class150" aria-live="polite"><span class="class151"></span></p>
+          <button class="class026 class027 class028 class152" type="submit">席を予約する</button>
         </form>
       </div>
-      <svg class="access__dots" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <svg class="class153" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 10 Q360 90 700 50 T1440 10" fill="none" stroke="#b5d36b" stroke-width="9" stroke-linecap="round" stroke-dasharray="0 34" vector-effect="non-scaling-stroke"/>
       </svg>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__logo">Green<br>Oasis</p>
-      <nav class="footer__nav" aria-label="フッターナビゲーション">
+  <!-- フッター -->
+  <footer class="class154">
+    <div class="class155">
+      <p class="class156">Green<br>Oasis</p>
+      <nav class="class157" aria-label="フッターナビゲーション">
         <ul>
           <li><a href="#story">わたしたちのこと</a></li>
           <li><a href="#menu">メニューと価格</a></li>
@@ -438,9 +509,10 @@
         </ul>
       </nav>
     </div>
-    <p class="footer__links"><a href="#">プライバシーポリシー</a>｜<a href="#">利用規約</a></p>
-     <p class="footer__copy"><small>このカフェサイトは架空のものとなります</small></p>
-    <p class="footer__copy"><small>© 2026 Green Oasis</small></p>
+    <p class="class158"><a href="#">プライバシーポリシー</a>｜<a href="#">利用規約</a></p>
+    <p class="class159"><small>このカフェサイトは架空のものとなります</small></p>
+    <p class="class159"><small>© 2026 Green Oasis</small></p>
+    <a class="class195" href="#top" aria-label="ページの先頭へ戻る">TOP</a>
   </footer>
 
   <script src="js/main.js" defer></script>
